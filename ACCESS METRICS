@@ -1,0 +1,57 @@
+# Metadata Record
+
+**Title**: ZIP Code Tabulation Areas (ZCTA) and Minimum Distance to Opioid Treatment Programs (OTPs) – United States, 2020
+
+**Abstract**:  
+This dataset contains 2020 ZIP Code Tabulation Areas (ZCTAs) and their corresponding geographic attributes, along with a calculated minimum distance in miles from each ZCTA centroid to the nearest Opioid Treatment Program (OTP) in the United States. OTPs are certified facilities that administer and dispense FDA-approved medications for the long-term treatment of opioid use disorder (OUD). These programs also provide counseling and behavioral therapy, supporting a whole-person approach to recovery. The OTP facility locations were obtained from the SAMHSA FindTreatment.gov database.
+
+**Data Originators**:  
+- U.S. Census Bureau (2020 TIGER/Line Shapefiles)  
+- Substance Abuse and Mental Health Services Administration (SAMHSA), FindTreatment.gov  
+
+**Date of Dataset**: 2020 (ZCTA boundaries); [Insert date of OTP data download]
+
+**Geographic Coverage**: United States (national extent, based on ZCTA)
+
+**Coordinate System**:  
+- Geographic Coordinate System: WGS 84 (EPSG:4326)
+
+**Data Format**: CSV, shapefile, or geodatabase (depending on use case)
+
+**Field Descriptions**:
+
+| Field Name     | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| `ZCTA5CE20`    | 5-digit ZIP Code Tabulation Area code (2020)                                |
+| `GEOID20`      | Unique geographic identifier (same as ZCTA5CE20)                            |
+| `CLASSFP20`    | Class code for ZCTA (`B5` = ZIP Code Tabulation Area)                       |
+| `MTFCC20`      | MAF/TIGER Feature Class Code (`G6350` = ZCTA5)                              |
+| `FUNCSTAT20`   | Functional status of the ZCTA (`S` = Significant area)                      |
+| `ALAND20`      | Land area in square meters                                                  |
+| `AWATER20`     | Water area in square meters                                                 |
+| `INTPTLAT20`   | Latitude of the internal point (centroid) of the ZCTA                       |
+| `INTPTLON20`   | Longitude of the internal point (centroid) of the ZCTA                      |
+| `minDist_mi`   | Minimum distance (in miles) from ZCTA centroid to the nearest OTP facility  |
+
+**Methodology**:  
+ZCTA boundary and centroid data were obtained from the 2020 TIGER/Line Shapefiles. OTP facility addresses were downloaded from the SAMHSA FindTreatment.gov database. Using geographic information systems (GIS), the nearest OTP facility for each ZCTA centroid was identified, and the minimum distance to that facility was calculated in miles using [insert method: Euclidean or network-based analysis].
+
+**Limitations**:  
+- Distances are calculated from geographic centroids and may not represent the true travel distance or accessibility.
+- OTP dataset reflects facilities active as of the download date; new or closed facilities may not be represented.
+- Availability of services (e.g., MOUD types) may vary by facility.
+
+**Intended Use**:  
+This dataset can be used to analyze spatial access to opioid treatment facilities across the U.S., support healthcare equity research, inform policymaking, and guide resource allocation.
+
+**Data Contact**:  
+[Your Name]  
+[Your Organization or Affiliation]  
+[Your Email or Website]
+
+**License**:  
+[Insert License Name, e.g., Creative Commons Attribution 4.0 (CC BY 4.0)]
+
+**Citation**:  
+[Your Last Name], [Your First Name]. (2025). *ZIP Code Tabulation Areas (ZCTA) and Minimum Distance to Opioid Treatment Programs (OTPs) – United States, 2020*. [Your Institution or Data Repository].
+Add metadata file
