@@ -9,7 +9,7 @@ This dataset contains 2020 ZIP Code Tabulation Areas (ZCTAs) and their correspon
 - U.S. Census Bureau (2020 TIGER/Line Shapefiles)  
 - Substance Abuse and Mental Health Services Administration (SAMHSA), FindTreatment.gov  
 
-**Date of Dataset**: 2020 (ZCTA boundaries); [Insert date of OTP data download]
+**Date of Dataset**: 2020 (ZCTA boundaries); 2025 OTP Facility points
 
 **Geographic Coverage**: United States (national extent, based on ZCTA)
 
@@ -44,14 +44,4 @@ ZCTA boundary and centroid data were obtained from the 2020 TIGER/Line Shapefile
 **Intended Use**:  
 This dataset can be used to analyze spatial access to opioid treatment facilities across the U.S., support healthcare equity research, inform policymaking, and guide resource allocation.
 
-**Data Contact**:  
-[Your Name]  
-[Your Organization or Affiliation]  
-[Your Email or Website]
 
-**License**:  
-[Insert License Name, e.g., Creative Commons Attribution 4.0 (CC BY 4.0)]
-
-**Citation**:  
-[Your Last Name], [Your First Name]. (2025). *ZIP Code Tabulation Areas (ZCTA) and Minimum Distance to Opioid Treatment Programs (OTPs) – United States, 2020*. [Your Institution or Data Repository].
-Add metadata file
