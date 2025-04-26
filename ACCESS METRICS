@@ -59,7 +59,7 @@ Key Variable and Definitions:
 | `AWATER20`     | Water area in square meters                                                 |
 | `INTPTLAT20`   | Latitude of the internal point (centroid) of the ZCTA                       |
 | `INTPTLON20`   | Longitude of the internal point (centroid) of the ZCTA                      |
-| `minDist_mi`   | Minimum distance (in miles) from ZCTA centroid to the nearest OTP facility  |
+| `minDist_mi`   | Minimum distance (in miles) from ZCTA centroid to the nearest facility  |
 
 Data Limitations:  
 * The `otpMinDis` variable uses Euclidean (straight-line) distance from centroid to facility. It does not account for road networks, travel times, or real-world geographic barriers.
