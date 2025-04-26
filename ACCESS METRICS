@@ -13,7 +13,24 @@ You can find the variables described in this document in the CSV files https://u
 CSV files are organized by ZCTA (ZIP Code Tabulation Area). Each row represents a 2020 ZCTA with a calculated distance to the nearest OTP.  
 
 Data Source(s) Description:  
-Facility locations of Opioid Treatment Programs (OTPs) were sourced from the [Substance Abuse and Mental Health Services Administration (SAMHSA)](https://findtreatment.gov/) and cleaned for analysis. OTPs are certified to administer and dispense FDA-approved medications for opioid use disorder (OUD), including methadone, buprenorphine, and naltrexone. These facilities also provide counseling and behavioral health therapies, forming part of the Medications for Opioid Use Disorder (MOUD) approach.
+Data Source(s) Description:  
+Facility locations were sourced from the Substance Abuse and Mental Health Services Administration (SAMHSA) (https://findtreatment.gov/) and cleaned for analysis. The dataset includes four categories of treatment facilities:  
+
+1. **Mental Health**:  
+   Facilities that provide therapy, psychotropic medication, or other services to address mental health issues, reduce symptoms, and improve behavioral outcomes.  
+
+2. **Health Care Centers**:  
+   Community-based, patient-directed organizations offering comprehensive, culturally competent, high-quality primary health care services to vulnerable populations, including people experiencing homelessness, agricultural workers, public housing residents, and veterans.  
+
+3. **Opioid Treatment Programs (OTPs)**:  
+   Certified facilities that administer and dispense FDA-approved medications (e.g., methadone) for long-term treatment of opioid use disorder. These facilities must also provide counseling, behavioral therapies, and recovery supports under the Medications for Opioid Use Disorder (MOUD) model.  
+
+4. **Substance Use Treatment Facilities**:  
+   Facilities offering treatment for substance use disorders through integrated medical and mental health services. Services may include behavioral counseling, medication-assisted treatment, withdrawal symptom management, co-occurring mental health treatment (e.g., depression, anxiety), and long-term relapse prevention.  
+   - **Subcategories**: Substance use treatment facilities are further classified by the primary medication used in treatment:  
+     - **Methadone**  
+     - **Buprenorphine**  
+     - **Naltrexone**  
 
 ZCTA boundary files were sourced from the U.S. Census Bureau, 2020 TIGER/Line Shapefiles.
 
