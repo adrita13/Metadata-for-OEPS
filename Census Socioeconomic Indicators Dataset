@@ -1,0 +1,67 @@
+# Metadata for Census Socioeconomic Indicators Dataset
+
+**Meta Data Name:** Census Socioeconomic Indicators  
+**Date Added:** April 27, 2025  
+**Author:** Mahjabin Kabir Adrita 
+**Date Last Modified:** April 27, 2025  
+**Last Modified By:** Mahjabin Kabir Adrita
+
+## Theme:
+Demographics and Socioeconomics
+
+## Data Location:
+The variables described in this document can be found in the CSV files in box.
+
+CSV files are organized by year and geographic identifier (GEOID). Each row represents a geographic unit (e.g., census tract, ZCTA) and contains associated socioeconomic indicators.
+
+## Data Source(s) Description:
+The data were sourced from the U.S. Census Bureau’s American Community Survey (ACS) and related products, aggregated for internal analysis purposes.
+
+## Description of Data Source Tables:
+The dataset includes raw and derived estimates of housing conditions, employment status, income, poverty, educational attainment, veteran status, and disability rates.
+
+Each record includes a unique geographic identifier (`GEOID`), the year of data collection, and multiple socioeconomic metrics.
+
+## Description of Data Processing:
+Minimal processing was conducted beyond standardizing variable names and ensuring numeric consistency. Missing values are marked as `NA`.
+
+Indicators such as unemployment rates, income measures, household types, and demographic breakdowns were directly sourced or calculated using standard Census Bureau methodologies.
+
+## Key Variables and Definitions:
+
+| Variable | Variable ID in CSV | Description | Years Available | Spatial Scale |
+| :--- | :--- | :--- | :--- | :--- |
+| Census Identifier | GEOID | Unique code for geographic unit | 2023 | Varies |
+| Year | Year | Year of data collection | 2023 | Varies |
+| Total Occupants | Occupants | Number of people living in housing units | 2023 | Varies |
+| Crowded Housing (%) | crowdHsng18 | Percent of households considered crowded (more than 1 occupant per room) | 2023 | Varies |
+| Unemployment Rate (%) | UnempP | Unemployment rate (primary estimate) | 2023 | Varies |
+| Secondary Unemployment Rate (%) | UnempP2 | Secondary unemployment estimate | 2023 | Varies |
+| Per Capita Income ($) | PciE | Average income per person | 2023 | Varies |
+| Poverty Rate (%) | PovP | Percent of population below poverty level | 2023 | Varies |
+| Gini Coefficient | GiniCoeff | Measure of income inequality (0 to 1 scale) | 2023 | Varies |
+| Median Income ($) | MedInc | Median household income | 2023 | Varies |
+| Household Totals | HsdTot | Total number of households | 2023 | Varies |
+| Household Type Metrics | HsdTypM, HsdTypMC, HsdTypCo | Different types of households (married, cohabiting, etc.) | 2023 | Varies |
+| Household and Family Sizes | HHSize, FamSize | Average size of households and families | 2023 | Varies |
+| Marital Status (%s) | NvMrrdP, MrrdP, DivrcdP, SepartedP, WidwdP | Percent distribution across marital statuses | 2023 | Varies |
+| Household Family Composition | HhldFC, HhldFA, HhldFS, HhldMC, HhldMA, HhldMS | Counts of different family compositions | 2023 | Varies |
+| Total Population | TotalPop | Total population in the geographic unit | 2023 | Varies |
+| English Proficiency (%) | engProf18 | Percent proficient in English | 2023 | Varies |
+| Gender (%s) | MaleP, FemP | Percent male and female population | 2023 | Varies |
+| Age (%s) | Under5P, Over18P, Over21P, Over62P, Over65P | Percent of population in specified age groups | 2023 | Varies |
+| Median Age | MedAge | Median age of population | 2023 | Varies |
+| Race and Ethnicity (%s) | WhiteNHE, WhiteNHP, BlackNHE, BlackNHP, AIANNHE, AIANNHP, AsianNHP, NAPINHE, HispLatE, HispLatP, OthrNHP | Percent of population by race and ethnicity | 2023 | Varies |
+| Educational Attainment (%s) | eduNoHS, eduHS, someCollege, Bachelors, GradScl | Percent of population by highest education level | 2023 | Varies |
+| Veteran Population | VetCivilnPop, VetP | Total and percent veteran civilian population | 2023 | Varies |
+| Disability Rate (%) | DisabP | Percent of population with disabilities | 2023 | Varies |
+
+## Data Limitations:
+- Some estimates may have higher margins of error, particularly for smaller populations or subgroups.
+- Missing data is marked as `NA` and should be considered carefully in analysis.
+- Variables sourced from ACS data represent 5-year estimates where applicable, not single-year snapshots.
+
+## Comments/Notes:
+- This dataset includes geographies within Puerto Rico but may exclude U.S. territories such as Guam, Northern Mariana Islands, and American Samoa.
+- Users should refer to ACS documentation for detailed methodology on variable calculation and definitions.
+
