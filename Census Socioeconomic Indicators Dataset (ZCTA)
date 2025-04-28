@@ -12,7 +12,7 @@ Demographics and Socioeconomics
 ## Data Location:
 The variables described in this document can be found in the CSV files in box.
 
-CSV files are organized by year and geographic identifier (GEOID). Each row represents a geographic unit (e.g., census tract, ZCTA) and contains associated socioeconomic indicators.
+CSV files are organized by year and geographic identifier (GEOID). Each row represents geographic unit ZCTA and contains associated socioeconomic indicators.
 
 ## Data Source(s) Description:
 The data were sourced from the U.S. Census Bureau’s American Community Survey (ACS) and related products, aggregated for internal analysis purposes.
