@@ -12,7 +12,7 @@ Demographics and Socioeconomics
 ## Data Location:
 The variables described in this document can be found in the CSV files in box.
 
-CSV files are organized by year and geographic identifier (GEOID). Each row represents geographic unit ZCTA and contains associated socioeconomic indicators.
+CSV files are organized by year and geographic identifier (GEOID). Each row represents geographic unit Zip Code Tabulation Area (ZCTA) and contains associated socioeconomic indicators.
 
 ## Data Source(s) Description:
 The data were sourced from the U.S. Census Bureau’s American Community Survey (ACS) and related products, aggregated for internal analysis purposes.
@@ -27,34 +27,99 @@ Minimal processing was conducted beyond standardizing variable names and ensurin
 
 Indicators such as unemployment rates, income measures, household types, and demographic breakdowns were directly sourced or calculated using standard Census Bureau methodologies.
 
-## Key Variables and Definitions:
+## Key Variables 
 
 | Variable | Variable ID in CSV | Description | Years Available | Spatial Scale |
 | :--- | :--- | :--- | :--- | :--- |
-| Census Identifier | GEOID | Unique code for geographic unit | 2023 | Varies |
-| Year | Year | Year of data collection | 2023 | Varies |
-| Total Occupants | Occupants | Number of people living in housing units | 2023 | Varies |
-| Crowded Housing (%) | crowdHsng18 | Percent of households considered crowded (more than 1 occupant per room) | 2023 | Varies |
-| Unemployment Rate (%) | UnempP | Unemployment rate (primary estimate) | 2023 | Varies |
-| Secondary Unemployment Rate (%) | UnempP2 | Secondary unemployment estimate | 2023 | Varies |
-| Per Capita Income ($) | PciE | Average income per person | 2023 | Varies |
-| Poverty Rate (%) | PovP | Percent of population below poverty level | 2023 | Varies |
-| Gini Coefficient | GiniCoeff | Measure of income inequality (0 to 1 scale) | 2023 | Varies |
-| Median Income ($) | MedInc | Median household income | 2023 | Varies |
-| Household Totals | HsdTot | Total number of households | 2023 | Varies |
-| Household Type Metrics | HsdTypM, HsdTypMC, HsdTypCo | Different types of households (married, cohabiting, etc.) | 2023 | Varies |
-| Household and Family Sizes | HHSize, FamSize | Average size of households and families | 2023 | Varies |
-| Marital Status (%s) | NvMrrdP, MrrdP, DivrcdP, SepartedP, WidwdP | Percent distribution across marital statuses | 2023 | Varies |
-| Household Family Composition | HhldFC, HhldFA, HhldFS, HhldMC, HhldMA, HhldMS | Counts of different family compositions | 2023 | Varies |
-| Total Population | TotalPop | Total population in the geographic unit | 2023 | Varies |
-| English Proficiency (%) | engProf18 | Percent proficient in English | 2023 | Varies |
-| Gender (%s) | MaleP, FemP | Percent male and female population | 2023 | Varies |
-| Age (%s) | Under5P, Over18P, Over21P, Over62P, Over65P | Percent of population in specified age groups | 2023 | Varies |
-| Median Age | MedAge | Median age of population | 2023 | Varies |
-| Race and Ethnicity (%s) | WhiteNHE, WhiteNHP, BlackNHE, BlackNHP, AIANNHE, AIANNHP, AsianNHP, NAPINHE, HispLatE, HispLatP, OthrNHP | Percent of population by race and ethnicity | 2023 | Varies |
-| Educational Attainment (%s) | eduNoHS, eduHS, someCollege, Bachelors, GradScl | Percent of population by highest education level | 2023 | Varies |
-| Veteran Population | VetCivilnPop, VetP | Total and percent veteran civilian population | 2023 | Varies |
-| Disability Rate (%) | DisabP | Percent of population with disabilities | 2023 | Varies |
+| Census Identifier | GEOID | Unique code for geographic unit | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Year | Year | Year of data collection | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Total Occupants | Occupants | Number of people living in housing units | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Crowded Housing (%) | crowdHsng18 | Percent of households considered crowded (more than 1 occupant per room) | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Unemployment Rate (%) | UnempP | Unemployment rate (primary estimate) | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Secondary Unemployment Rate (%) | UnempP2 | Secondary unemployment estimate | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Per Capita Income ($) | PciE | Average income per person | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Poverty Rate (%) | PovP | Percent of population below poverty level | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Gini Coefficient | GiniCoeff | Measure of income inequality (0 to 1 scale) | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Median Income ($) | MedInc | Median household income | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Household Totals | HsdTot | Total number of households | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Household Type Metrics | HsdTypM, HsdTypMC, HsdTypCo | Different types of households (married, cohabiting, etc.) | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Household and Family Sizes | HHSize, FamSize | Average size of households and families | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Marital Status (%s) | NvMrrdP, MrrdP, DivrcdP, SepartedP, WidwdP | Percent distribution across marital statuses | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Household Family Composition | HhldFC, HhldFA, HhldFS, HhldMC, HhldMA, HhldMS | Counts of different family compositions | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Total Population | TotalPop | Total population in the geographic unit | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| English Proficiency (%) | engProf18 | Percent proficient in English | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Gender (%s) | MaleP, FemP | Percent male and female population | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Age (%s) | Under5P, Over18P, Over21P, Over62P, Over65P | Percent of population in specified age groups | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Median Age | MedAge | Median age of population | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Race and Ethnicity (%s) | WhiteNHE, WhiteNHP, BlackNHE, BlackNHP, AIANNHE, AIANNHP, AsianNHP, NAPINHE, HispLatE, HispLatP, OthrNHP | Percent of population by race and ethnicity | 2015, 2018, 2019, 2020, 2023 | Varies |
+| Educational Attainment (%s) | eduNoHS, eduHS, someCollege, Bachelors, GradScl | Percent of population by highest education level | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Veteran Population | VetCivilnPop, VetP | Total and percent veteran civilian population | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+| Disability Rate (%) | DisabP | Percent of population with disabilities | 2015, 2018, 2019, 2020, 2023 | ZCTA |
+
+# Variable Definitions 
+
+| Variable Name | Description |
+| :--- | :--- |
+| Index | Row index (internal use) |
+| GEOID | Geographic Identifier (Census Tract, ZCTA, or other area) |
+| Year | Year of data collection |
+| Occupants | Number of occupants in housing units |
+| crowdHsng18 | Percent of households with more than one occupant per room (crowded housing) |
+| UnempP | Primary unemployment rate (%) |
+| UnempP2 | Secondary unemployment rate estimate (%) |
+| PciE | Per capita income in dollars |
+| PovP | Percent of population living below the poverty line |
+| GiniCoeff | Gini coefficient (income inequality measure, 0 to 1) |
+| MedInc | Median household income (dollars) |
+| HsdTot | Total number of households |
+| HsdTypM | Number of married-couple households |
+| HsdTypMC | Number of married-couple households with children |
+| HsdTypCo | Number of cohabiting households |
+| HHSize | Average household size |
+| FamSize | Average family size |
+| NvMrrdP | Percent of population never married |
+| MrrdP | Percent of population currently married |
+| DivrcdP | Percent of population divorced |
+| SepartedP | Percent of population separated |
+| WidwdP | Percent of population widowed |
+| HhldFC | Number of family households (children present) |
+| HhldFA | Number of family households (adults only) |
+| HhldFS | Number of family households (single-parent) |
+| HhldMC | Number of married-couple households (children present) |
+| HhldMA | Number of married-couple households (adults only) |
+| HhldMS | Number of single-parent households |
+| totPop18 | Total population aged 18 and over |
+| engProf18 | Percent of population aged 18+ proficient in English |
+| TotalPop | Total population (all ages) |
+| MaleP | Percent of population that is male |
+| FemP | Percent of population that is female |
+| Under5P | Percent of population under age 5 |
+| Over18P | Percent of population over age 18 |
+| Over21P | Percent of population over age 21 |
+| Over62P | Percent of population over age 62 |
+| Over65P | Percent of population over age 65 |
+| MedAge | Median age of population |
+| WhiteNHE | Number of non-Hispanic White individuals |
+| WhiteNHP | Percent of non-Hispanic White population |
+| BlackNHE | Number of non-Hispanic Black individuals |
+| BlackNHP | Percent of non-Hispanic Black population |
+| AIANNHE | Number of non-Hispanic American Indian/Alaska Native individuals |
+| AIANNHP | Percent of non-Hispanic American Indian/Alaska Native population |
+| AsianNHP | Percent of non-Hispanic Asian population |
+| NAPINHE | Number of non-Hispanic Native Hawaiian and Pacific Islander individuals |
+| HispLatE | Number of Hispanic or Latino individuals (of any race) |
+| HispLatP | Percent of Hispanic or Latino population |
+| OthrNHP | Percent of non-Hispanic individuals of other races |
+| eduNoHS | Percent of population with no high school diploma |
+| eduHS | Percent of population with only a high school diploma |
+| someCollege | Percent of population with some college but no degree |
+| Bachelors | Percent of population with a Bachelor’s degree |
+| GradScl | Percent of population with a graduate or professional degree |
+| VetCivilnPop | Total veteran civilian population |
+| VetP | Percent of civilian population who are veterans |
+| DisabP | Percent of population with a disability |
+
+
 
 ## Data Limitations:
 - Some estimates may have higher margins of error, particularly for smaller populations or subgroups.
