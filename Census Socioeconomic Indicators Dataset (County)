@@ -99,5 +99,11 @@ Data was cleaned and standardized across all years.
 | DisabP         | DisabP             | Percent with a disability | 2010, 2015, 2018, 2019, 2020, 2023 | County |
 | Year           | Year               | Year of the data record | 2010, 2015, 2018, 2019, 2020, 2023 | County |
 
+## Limitations
+- **Geographical limitations:** Data is available only at the county level. This may mask more localized disparities within counties.
+- **Data accuracy:** The data is based on estimates from the American Community Survey (ACS), which has inherent sampling errors. Small counties may have greater margins of error.
+- **Missing data:** There may be gaps for some counties or variables in certain years.
+- **Changes in classification:** Some categories may change over time (e.g., ethnicity or housing types), making it difficult to compare across all years without considering these changes.
+- **Time lag:** Data for 2023 may not be as complete or accurate as earlier years, depending on the survey timeline.
 
 
