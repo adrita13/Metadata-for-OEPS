@@ -1,0 +1,103 @@
+# Metadata Name: Census Socioeconomic Indicators Dataset (County)
+
+**Date Added:** April 27, 2025  
+**Author:** Mahjabin Kabir Adrita 
+**Date Last Modified:** April 27, 2025  
+**Last Modified By:** Mahjabin Kabir Adrita
+
+## Theme
+Socioeconomics and Demographics
+
+## Data Location
+Variables described in this document are included in CSV files in Box.
+
+Each CSV file corresponds to County-level data for a specific year: 2010, 2015, 2018, 2019, 2020, and 2023.
+
+## Data Source(s) Description
+Data sourced from the U.S. Census Bureau’s American Community Survey (ACS) 5-Year Estimates.
+
+## Description of Data Source Tables
+The raw dataset includes socioeconomic and demographic indicators such as income, educational attainment, housing characteristics, employment status, household types, and racial/ethnic composition.
+
+## Description of Data Processing
+Data was cleaned and standardized across all years.
+
+- Variables were renamed to concise, descriptive IDs.
+- Missing values were retained as NA.
+- Calculations such as percentages and ratios were derived directly from ACS data tables.
+- No data imputation or transformations were performed beyond renaming and reorganization.
+
+## Key Variables and Definitions
+| Variable       | Variable ID in CSV | Description | Years Available | Spatial Scale |
+|:---------------|:-------------------|:------------|:----------------|:--------------|
+| Index          | Index              | Unique identifier for each record | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| GEOID          | GEOID              | Census tract identifier | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Occupants      | Occupants          | Total number of occupants | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| crowdHsng18    | crowdHsng18        | Percentage of households with crowding (more than 1 occupant per room) | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| UnempP         | UnempP             | Unemployment rate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| UnempP2        | UnempP2            | Alternate unemployment measure (e.g., including marginally attached workers) | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| PciE           | PciE               | Per capita income (in dollars) | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| PovP           | PovP               | Percent of persons below poverty level | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| GiniCoeff      | GiniCoeff          | Gini Index of income inequality | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| MedInc         | MedInc             | Median household income | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HsdTot         | HsdTot             | Total number of housing units | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HsdTypM        | HsdTypM            | Number of housing units - mobile homes | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HsdTypMC       | HsdTypMC           | Number of housing units - manufactured homes | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HsdTypCo       | HsdTypCo           | Number of housing units - condominiums | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HHSize         | HHSize             | Average household size | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| FamSize        | FamSize            | Average family size | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| NvMrrdP        | NvMrrdP            | Percent of individuals never married | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| MrrdP          | MrrdP              | Percent of individuals currently married | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| DivrcdP        | DivrcdP            | Percent of individuals divorced | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| SepartedP      | SepartedP          | Percent of individuals separated | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| WidwdP         | WidwdP             | Percent of individuals widowed | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HhldFC         | HhldFC             | Number of family households with children | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HhldFA         | HhldFA             | Number of family households without children | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HhldFS         | HhldFS             | Single-parent family households | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HhldMC         | HhldMC             | Married-couple family households | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HhldMA         | HhldMA             | Male householder, no wife present | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HhldMS         | HhldMS             | Female householder, no husband present | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| totPop18       | totPop18           | Total population aged 18 and older | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| engProf18      | engProf18          | English proficiency among persons aged 18 and older | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| TotalPop       | TotalPop           | Total population | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| MaleP          | MaleP              | Percent male | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| FemP           | FemP               | Percent female | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| SRatio         | SRatio             | Sex ratio (males per 100 females) | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| SRatio18       | SRatio18           | Sex ratio for population 18 and over | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| SRatio65       | SRatio65           | Sex ratio for population 65 and over | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Under5P        | Under5P            | Percent under age 5 | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Over16P        | Over16P            | Percent over age 16 | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Under18P       | Under18P           | Percent under age 18 | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Over18P        | Over18P            | Percent over age 18 | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Over21P        | Over21P            | Percent over age 21 | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Over25P        | Over25P            | Percent over age 25 | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Over65P        | Over65P            | Percent over age 65 | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| MedAge         | MedAge             | Median age | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| WhiteNHE       | WhiteNHE           | White, Non-Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| WhiteNHP       | WhiteNHP           | White, Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| BlackNHE       | BlackNHE           | Black, Non-Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| BlackNHP       | BlackNHP           | Black, Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| AIANNHE        | AIANNHE            | American Indian/Alaska Native, Non-Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| AIANNHP        | AIANNHP            | American Indian/Alaska Native, Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| AsianNHE       | AsianNHE           | Asian, Non-Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| AsianNHP       | AsianNHP           | Asian, Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| NAPINHE        | NAPINHE            | Native Hawaiian/Pacific Islander, Non-Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| NAPINHP        | NAPINHP            | Native Hawaiian/Pacific Islander, Hispanic estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HispLatE       | HispLatE           | Hispanic/Latino ethnicity estimate | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| HispLatP       | HispLatP           | Percent Hispanic/Latino ethnicity | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| OthrNH         | OthrNH             | Other non-Hispanic ethnicity | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| OthrNHP        | OthrNHP            | Other Hispanic ethnicity | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| TwoNH          | TwoNH              | Two or more non-Hispanic ethnicity | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| TwoNHP         | TwoNHP             | Two or more Hispanic ethnicity | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| eduNoHS        | eduNoHS            | Percent with no high school diploma | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| eduHS          | eduHS              | Percent with high school diploma | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| someCollege    | someCollege        | Percent with some college education | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Bachelors      | Bachelors          | Percent with a bachelor's degree | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| GradScl        | GradScl            | Percent with a graduate or professional degree | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| VetCivilnPop   | VetCivilnPop       | Veterans, civilian population | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| VetP           | VetP               | Percent of veterans | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| DisabP         | DisabP             | Percent with a disability | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+| Year           | Year               | Year of the data record | 2010, 2015, 2018, 2019, 2020, 2023 | County |
+
+
+
