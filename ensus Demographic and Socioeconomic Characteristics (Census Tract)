@@ -1,0 +1,112 @@
+# Census Demographic and Socioeconomic Characteristics
+
+**Meta Data**  
+- **Name**: Census Demographic and Socioeconomic Characteristics  
+- **Date Added**: April 27, 2025  
+- **Author**: Mahjabin Kabir Adrita  
+- **Date Last Modified**: April 27, 2025  
+- **Last Modified By**: Mahjabin Kabir Adrita 
+
+---
+
+## Theme
+Demographics, Socioeconomics
+
+## Data Location
+The variables described in this document are located in the relevant CSV files organized by year at the Census Tract level in Box.
+
+## Data Source(s) Description
+Data are sourced from the U.S. Census Bureau's American Community Survey (ACS) 5-Year Estimates.
+
+## Description of Data Source Tables
+The dataset includes information on housing occupancy, employment, income, education, veteran status, disability status, and race/ethnicity characteristics at the Census Tract scale.
+
+## Description of Data Processing
+Data were cleaned, standardized, and harmonized across the years 2010, 2015, 2018, 2019, 2020, and 2023. Minor adjustments were made to variable names for consistency.
+
+---
+
+## Key Variables and Definitions
+
+| Variable | Variable ID | Description | Years Available | Spatial Scale |
+|:---|:---|:---|:---|:---|
+| Index | Index | Row index | 2010, 2015, 2018, 2019, 2020, 2023 | Census Tract |
+| GEOID | GEOID | Census Tract FIPS code | All | Census Tract |
+| Year | Year | Data year | All | Census Tract |
+| Occupants | Occupants | Number of household occupants | All | Census Tract |
+| crowdHsng18 | crowdHsng18 | Percent of housing units with >1 occupant per room | All | Census Tract |
+| UnempP | UnempP | Unemployment rate (percent of labor force) | All | Census Tract |
+| UnempP2 | UnempP2 | Alternative unemployment rate (specific subgroup) | All | Census Tract |
+| PciE | PciE | Per capita income (estimated) | All | Census Tract |
+| PovP | PovP | Percent of individuals below poverty line | All | Census Tract |
+| GiniCoeff | GiniCoeff | Gini Index of income inequality | All | Census Tract |
+| MedInc | MedInc | Median household income | All | Census Tract |
+| HsdTot | HsdTot | Total number of housing units | All | Census Tract |
+| HsdTypM | HsdTypM | Number of housing units that are mobile homes | All | Census Tract |
+| HsdTypMC | HsdTypMC | Number of mobile homes occupied | All | Census Tract |
+| HsdTypCo | HsdTypCo | Number of condominium units | All | Census Tract |
+| HHSize | HHSize | Average household size | All | Census Tract |
+| FamSize | FamSize | Average family size | All | Census Tract |
+| NvMrrdP | NvMrrdP | Percent never married | All | Census Tract |
+| MrrdP | MrrdP | Percent married | All | Census Tract |
+| DivrcdP | DivrcdP | Percent divorced | All | Census Tract |
+| SepartedP | SepartedP | Percent separated | All | Census Tract |
+| WidwdP | WidwdP | Percent widowed | All | Census Tract |
+| HhldFC | HhldFC | Female-headed households with children | All | Census Tract |
+| HhldFA | HhldFA | Female-headed households without children | All | Census Tract |
+| HhldFS | HhldFS | Female single-person households | All | Census Tract |
+| HhldMC | HhldMC | Male-headed households with children | All | Census Tract |
+| HhldMA | HhldMA | Male-headed households without children | All | Census Tract |
+| HhldMS | HhldMS | Male single-person households | All | Census Tract |
+| totPop18 | totPop18 | Total population 18 years and older | All | Census Tract |
+| engProf18 | engProf18 | Percent of 18+ population with English proficiency | All | Census Tract |
+| TotalPop | TotalPop | Total population | All | Census Tract |
+| MaleP | MaleP | Percent male population | All | Census Tract |
+| FemP | FemP | Percent female population | All | Census Tract |
+| SRatio | SRatio | Sex ratio (males per 100 females) | All | Census Tract |
+| SRatio18 | SRatio18 | Sex ratio for 18 years and older | All | Census Tract |
+| SRatio65 | SRatio65 | Sex ratio for 65 years and older | All | Census Tract |
+| Under5P | Under5P | Percent of population under 5 years | All | Census Tract |
+| Over16P | Over16P | Percent of population 16 years and older | All | Census Tract |
+| Under18P | Under18P | Percent of population under 18 years | All | Census Tract |
+| Over18P | Over18P | Percent of population 18 years and older | All | Census Tract |
+| Over21P | Over21P | Percent of population 21 years and older | All | Census Tract |
+| Over25P | Over25P | Percent of population 25 years and older | All | Census Tract |
+| Over65P | Over65P | Percent of population 65 years and older | All | Census Tract |
+| MedAge | MedAge | Median age | All | Census Tract |
+| WhiteNHE | WhiteNHE | White, Non-Hispanic population (estimate) | All | Census Tract |
+| WhiteNHP | WhiteNHP | White, Non-Hispanic percentage | All | Census Tract |
+| BlackNHE | BlackNHE | Black or African American, Non-Hispanic population (estimate) | All | Census Tract |
+| BlackNHP | BlackNHP | Black or African American, Non-Hispanic percentage | All | Census Tract |
+| AIANNHE | AIANNHE | American Indian and Alaska Native, Non-Hispanic population (estimate) | All | Census Tract |
+| AIANNHP | AIANNHP | American Indian and Alaska Native, Non-Hispanic percentage | All | Census Tract |
+| AsianNHE | AsianNHE | Asian, Non-Hispanic population (estimate) | All | Census Tract |
+| AsianNHP | AsianNHP | Asian, Non-Hispanic percentage | All | Census Tract |
+| NAPINHE | NAPINHE | Native Hawaiian and Other Pacific Islander, Non-Hispanic population (estimate) | All | Census Tract |
+| NAPINHP | NAPINHP | Native Hawaiian and Other Pacific Islander, Non-Hispanic percentage | All | Census Tract |
+| HispLatE | HispLatE | Hispanic or Latino population (estimate) | All | Census Tract |
+| HispLatP | HispLatP | Hispanic or Latino population (percent) | All | Census Tract |
+| OthrNH | OthrNH | Other race, Non-Hispanic population (estimate) | All | Census Tract |
+| OthrNHP | OthrNHP | Other race, Non-Hispanic percentage | All | Census Tract |
+| TwoNH | TwoNH | Two or more races, Non-Hispanic population (estimate) | All | Census Tract |
+| TwoNHP | TwoNHP | Two or more races, Non-Hispanic percentage | All | Census Tract |
+| eduNoHS | eduNoHS | Percent of population without high school diploma | All | Census Tract |
+| eduHS | eduHS | Percent of population with high school diploma | All | Census Tract |
+| someCollege | someCollege | Percent of population with some college education (no degree) | All | Census Tract |
+| Bachelors | Bachelors | Percent of population with Bachelor's degree | All | Census Tract |
+| GradScl | GradScl | Percent of population with graduate or professional degree | All | Census Tract |
+| VetCivilnPop | VetCivilnPop | Civilian population 18+ years who are veterans | All | Census Tract |
+| VetP | VetP | Percent of veterans in civilian population 18+ years | All | Census Tract |
+| DisabP | DisabP | Percent of population with a disability | All | Census Tract |
+
+---
+
+## Data Limitations
+- Small sample sizes in certain tracts may affect estimates.
+- Self-reported survey data may introduce reporting biases.
+- Year-to-year changes may reflect methodology changes in the ACS.
+
+## Comments/Notes
+- Includes data for all U.S. states, Washington D.C., and Puerto Rico.
+- Does not include U.S. territories outside Puerto Rico.
+- Spatial scale limited to Census Tract boundaries.
