@@ -1,0 +1,65 @@
+Meta Data Name: Basic Demographic Variables  
+Date Added: May 5, 2025  
+Authors: Mahjabin Kabir Adrita  
+Date Last Modified: May 5, 2025  
+Last Modified By: Mahjabin Kabir Adrita
+
+---
+
+### Theme:  
+Demographics – Core Population Characteristics
+
+---
+
+### Data Location:  
+You can find the variables described in this document in the CSV files here.
+
+CSV files are organized by year and spatial scale. For example, county-level variables from 2020 will be found in `C_2020.csv`.  
+**Note:** Every variable can be found in the **Latest** files.
+
+---
+
+### Data Source(s) Description:  
+Variables were derived from the *American Community Survey (ACS)* 5-Year Estimates for the years 2020 and 2023. Source tables include DP05 (Demographic and Housing Estimates) and related summary files, available for Tract, County, and ZIP Code Tabulation Area (ZCTA) levels.
+
+The ACS is an annual survey by the U.S. Census Bureau that collects detailed demographic, social, economic, and housing information.
+
+---
+
+### Description of Data Source Tables:  
+**Table DP05:** Demographic and Housing Estimates
+
+This table includes population counts and percentage breakdowns by sex, age, and race, as well as household characteristics such as average household size.
+
+---
+
+### Description of Data Processing:  
+- Percentage values represent proportions of the total population or household population and are rounded to two decimal places.  
+- Average household size is expressed in number of persons.  
+- Median age is measured in years.  
+- All race variables follow ACS definitions, including "Two or More Races," which includes individuals selecting multiple race options on the ACS survey.
+
+---
+
+### Key Variable and Definitions:
+
+| Variable                          | Variable ID in .csv | Description                                              | Years Available     | Spatial Scale         |
+|-----------------------------------|---------------------|----------------------------------------------------------|----------------------|------------------------|
+| Percent female population         | FemP                | Percent of population identifying as female             | 2020, 2023           | Tract, ZCTA, County    |
+| Average household size            | HHSize              | Average number of persons per household                 | 2020, 2023           | Tract, ZCTA, County    |
+| Percent male population           | MaleP               | Percent of population identifying as male               | 2020, 2023           | Tract, ZCTA, County    |
+| Median age                        | MedAge              | Median age of the population                            | 2020, 2023           | Tract, ZCTA, County    |
+| Percent identifying as 2+ races   | TwoRaceP            | Percent of population identifying as two or more races  | 2020, 2023           | Tract, ZCTA, County    |
+
+---
+
+### Data Limitations:  
+- Estimates are subject to sampling error and should be interpreted with associated margins of error.  
+- ZCTA-level data is only available for the most recent ACS releases.  
+- Gender is reported based on binary categories (male/female) as defined by the ACS.  
+- Racial self-identification may differ by survey year or respondent interpretation.
+
+---
+
+### Comments/Notes:  
+See the [ACS Subject Definitions](https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html) for detailed information on race, gender, and household definitions used by the U.S. Census Bureau.
