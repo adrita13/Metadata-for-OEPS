@@ -1,0 +1,134 @@
+Meta Data Name: Housing Characteristics Variables  
+Date Added: May 5, 2025  
+Authors: [Your Name Here]  
+Date Last Modified: May 5, 2025  
+Last Modified By: [Your Name Here]
+
+---
+
+### Theme:  
+Housing – Structure Types, Occupancy, and Crowding
+
+---
+
+### Data Location:  
+You can find the variables described in this document in the CSV files here.
+
+CSV files are organized by year and spatial scale. For example, county-level variables from 2020 will be found in `C_2020.csv`.  
+**Note:** Every variable can be found in the **Latest** files.
+
+---
+
+### Data Source(s) Description:  
+Variables were derived from the *American Community Survey (ACS)* 5-Year Estimates, using tables related to housing occupancy (e.g., B25014, B25024, and B25003), covering the years 2020 and 2023.
+
+The ACS provides detailed housing information for census tracts, counties, and ZIP Code Tabulation Areas (ZCTAs), including data on occupancy, unit type, and crowding.
+
+---
+
+### Description of Data Source Tables:  
+**Table B25014:** Tenure by Occupants per Room  
+**Table B25024:** Units in Structure  
+**Table B25003:** Occupancy Status
+
+These tables measure crowding (more than 1 person per room), housing structure types (e.g., single-family, multi-family, condo), and occupancy rates.
+
+---
+
+### Description of Data Processing:  
+- Crowding is defined as more than 1.00 person per room for household members aged 18+.  
+- Housing type variables are derived from classification codes based on structural use and zoning descriptions.  
+- Mixed-use classifications were identified using supplementary geospatial zoning overlays and structure use flags.  
+- All percentage variables represent a share of total housing units or occupied units as appropriate.
+
+---
+
+### Key Variable and Definitions:
+
+| Variable                          | Variable ID in .csv | Description                                                                 | Years Available | Spatial Scale        |
+|-----------------------------------|---------------------|-----------------------------------------------------------------------------|------------------|-----------------------|
+| Crowded Housing (18+)             | crowdHsng18         | Percent of households with crowding (1.01+ persons/room, age 18+)           | 2020, 2023       | Tract, County, ZCTA   |
+| Condominium Housing               | HsdTypCo            | Percent of housing classified as condominium                               | 2020, 2023       | Tract, County, ZCTA   |
+| Multifamily Housing               | HsdTypM             | Percent of housing classified as multifamily                               | 2020, 2023       | Tract, County, ZCTA   |
+| Mixed-Use Housing                 | HsdTypMC            | Percent of housing classified as mixed-use                                 | 2020, 2023       | Tract, County, ZCTA   |
+| Occupied Housing Units            | occupantP           | Percent of housing units that are occupied                                 | 2020, 2023       | Tract, County, ZCTA   |
+
+---
+
+### Data Limitations:  
+- Crowding is calculated only for the population age 18+, which differs from ACS’s total household estimates.  
+- Mixed-use housing data may be unavailable in some rural or low-density tracts due to geospatial zoning limitations.  
+- ZCTA-level data may be suppressed or statistically unreliable in areas with low response counts.  
+- Structural classification depends on local zoning interpretation and ACS categorization.
+
+---
+
+### Comments/Notes:  
+For full variable definitions and methodological details, consult the [ACS Subject Definitions](https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html).
+  
+Date Added: May 5, 2025  
+Authors: Mahjabin Kabir Adrita 
+Date Last Modified: May 5, 2025  
+Last Modified By: Mhajabin Kabir Adrita
+
+---
+
+### Theme:  
+Housing – Structure Types, Occupancy, and Crowding
+
+---
+
+### Data Location:  
+You can find the variables described in this document in the CSV files here.
+
+CSV files are organized by year and spatial scale. For example, county-level variables from 2020 will be found in `C_2020.csv`.  
+**Note:** Every variable can be found in files.
+
+---
+
+### Data Source(s) Description:  
+Variables were derived from the *American Community Survey (ACS)* 5-Year Estimates, using tables related to housing occupancy (e.g., B25014, B25024, and B25003), covering the years 2020 and 2023.
+
+The ACS provides detailed housing information for census tracts, counties, and ZIP Code Tabulation Areas (ZCTAs), including data on occupancy, unit type, and crowding.
+
+---
+
+### Description of Data Source Tables:  
+**Table B25014:** Tenure by Occupants per Room  
+**Table B25024:** Units in Structure  
+**Table B25003:** Occupancy Status
+
+These tables measure crowding (more than 1 person per room), housing structure types (e.g., single-family, multi-family, condo), and occupancy rates.
+
+---
+
+### Description of Data Processing:  
+- Crowding is defined as more than 1.00 person per room for household members aged 18+.  
+- Housing type variables are derived from classification codes based on structural use and zoning descriptions.  
+- Mixed-use classifications were identified using supplementary geospatial zoning overlays and structure use flags.  
+- All percentage variables represent a share of total housing units or occupied units as appropriate.
+
+---
+
+### Key Variable and Definitions:
+
+| Variable                          | Variable ID in .csv | Description                                                                 | Years Available | Spatial Scale        |
+|-----------------------------------|---------------------|-----------------------------------------------------------------------------|------------------|-----------------------|
+| Crowded Housing (18+)             | crowdHsng18         | Percent of households with crowding (1.01+ persons/room, age 18+)           | 2020, 2023       | Tract, County, ZCTA   |
+| Condominium Housing               | HsdTypCo            | Percent of housing classified as condominium                               | 2020, 2023       | Tract, County, ZCTA   |
+| Multifamily Housing               | HsdTypM             | Percent of housing classified as multifamily                               | 2020, 2023       | Tract, County, ZCTA   |
+| Mixed-Use Housing                 | HsdTypMC            | Percent of housing classified as mixed-use                                 | 2020, 2023       | Tract, County, ZCTA   |
+| Occupied Housing Units            | occupantP           | Percent of housing units that are occupied                                 | 2020, 2023       | Tract, County, ZCTA   |
+
+---
+
+### Data Limitations:  
+- Crowding is calculated only for the population age 18+, which differs from ACS’s total household estimates.  
+- Mixed-use housing data may be unavailable in some rural or low-density tracts due to geospatial zoning limitations.  
+- ZCTA-level data may be suppressed or statistically unreliable in areas with low response counts.  
+- Structural classification depends on local zoning interpretation and ACS categorization.
+
+---
+
+### Comments/Notes:  
+For full variable definitions and methodological details, consult the [ACS Subject Definitions](https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html).
