@@ -1,0 +1,70 @@
+Meta Data Name: Family Type Variables  
+Date Added: May 5, 2025  
+Authors: Mahjabin Kabir Adrita  
+Date Last Modified: May 5, 2025  
+Last Modified By: Mahjabin Kabir Adrita
+
+---
+
+### Theme:  
+Demographics – Population Characteristics and Family Composition
+
+---
+
+### Data Location:  
+You can find the variables described in this document in the CSV files here.
+
+CSV files are organized by year and spatial scale. For example, county-level variables from 2020 will be found in `C_2020.csv`.  
+**Note:** Every variable can be found in the **Latest** files.
+
+---
+
+### Data Source(s) Description:  
+Variables were obtained from the *American Community Survey (ACS)* 5-Year Estimates for the years 2020 and 2023, primarily from tables DP05 (Demographic and Housing Estimates) and S1101 (Households and Families), at the Tract, County, and ZIP Code Tabulation Area (ZCTA) levels.
+
+The ACS is conducted annually by the U.S. Census Bureau and provides key demographic and socioeconomic indicators at multiple geographic scales.
+
+---
+
+### Description of Data Source Tables:  
+**Table DP05:** Demographic and Housing Estimates  
+**Table S1101:** Households and Families  
+
+These tables provide estimates related to household and family structures, average household/family size, gender distribution, and median age. Percentages were calculated based on total household or family populations, depending on context.
+
+---
+
+### Description of Data Processing:  
+- Average values such as household and family size are reported in number of persons.  
+- Gender and family type variables are expressed as percentages of the total population or total households.  
+- Median age is reported in years.  
+- All percentage values are on a 0–100 scale and rounded to two decimal places.
+
+---
+
+### Key Variable and Definitions:
+
+| Variable                         | Variable ID in .csv | Description                                                | Years Available     | Spatial Scale         |
+|----------------------------------|---------------------|------------------------------------------------------------|----------------------|------------------------|
+| Average family size              | FamSize             | Average number of persons per family                       | 2020, 2023           | Tract, ZCTA, County    |
+| Average household size           | HHSize              | Average number of persons per household                    | 2020, 2023           | Tract, ZCTA, County    |
+| Female-headed family households  | HhldFA              | Percent of family households headed by females             | 2020, 2023           | Tract, ZCTA, County    |
+| Couple-headed family households  | HhldFC              | Percent of family households headed by couples             | 2020, 2023           | Tract, ZCTA, County    |
+| Single-parent family households  | HhldFS              | Percent of single-parent family households                 | 2020, 2023           | Tract, ZCTA, County    |
+| Male-headed adult households     | HhldMA              | Percent of households headed by males with other adults    | 2020, 2023           | Tract, ZCTA, County    |
+| Couple-headed male households    | HhldMC              | Percent of male-male couple-headed households              | 2020, 2023           | Tract, ZCTA, County    |
+| Single-male households           | HhldMS              | Percent of male-headed single households                   | 2020, 2023           | Tract, ZCTA, County    |
+
+---
+
+### Data Limitations:  
+- ACS estimates are subject to sampling variability and margins of error.  
+- Small-area estimates (e.g., tract-level) may have higher uncertainty.  
+- ZCTA data is only available for the most recent ACS years (2020 and 2023).  
+- Gender categories are limited to binary classifications (male/female) based on ACS standards.
+
+---
+
+### Comments/Notes:  
+For detailed definitions and methodology, refer to the [ACS Subject Definitions](https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html).  
+When comparing across years or geographic units, be aware of shifts in population base and definitions over time.
