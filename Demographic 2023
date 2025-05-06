@@ -50,6 +50,17 @@ This table includes population counts and percentage breakdowns by sex, age, and
 | Percent male population           | MaleP               | Percent of population identifying as male               | 2020, 2023           | Tract, ZCTA, County    |
 | Median age                        | MedAge              | Median age of the population                            | 2020, 2023           | Tract, ZCTA, County    |
 | Percent identifying as 2+ races   | TwoRaceP            | Percent of population identifying as two or more races  | 2020, 2023           | Tract, ZCTA, County    |
+| Alt. Unemployment Rate | UnempP2         | Alternative unemployment rate (specific subgroup)               | 2020, 2023       | Tract, County, ZCTA     |
+| English Proficiency (18+) | engProf18   | Percent of population age 18+ proficient in English             | 2020, 2023       | Tract, County, ZCTA     |
+| Divorced Individuals    | DivrcdP       | Percent of divorced individuals                                 | 2020, 2023       | Tract, County, ZCTA     |
+| Married Individuals     | MrrdP         | Percent of married individuals                                  | 2020, 2023       | Tract, County, ZCTA     |
+| Never Married Individuals | NvMrrdP     | Percent never married                                           | 2020, 2023       | Tract, County, ZCTA     |
+| Separated Individuals   | SepartedP     | Percent of separated individuals                                | 2020, 2023       | Tract, County, ZCTA     |
+| Widowed Individuals     | WidwdP        | Percent widowed                                                 | 2020, 2023       | Tract, County, ZCTA     |
+| Total Pop. Age 18+      | TotPop18      | Total population age 18 and over                                | 2020, 2023       | Tract, County, ZCTA     |
+| Sex Ratio (All Ages)    | SRatio        | Male to female ratio (all ages)                                 | 2020, 2023       | Tract, County, ZCTA     |
+| Sex Ratio (18+)         | SRatio18      | Male to female ratio (age 18 and older)                         | 2020, 2023       | Tract, County, ZCTA     |
+| Sex Ratio (65+)         | SRatio65      | Male to female ratio (age 65 and older)                         | 2020, 2023       | Tract, County, ZCTA     |
 
 ---
 
